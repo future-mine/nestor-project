@@ -3,7 +3,7 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="text-h6"> Nestor test </v-list-item-title>
+          <v-list-item-title class="text-h6"> Vue node test </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
 

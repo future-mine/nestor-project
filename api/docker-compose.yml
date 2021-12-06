@@ -2,7 +2,7 @@ version: "3.8"
 services:
   mongodb:
     image: mongo
-    container_name: nestor_mongodb
+    container_name: xin_mongodb
     environment:
       - PUID=1000
       - PGID=1000
@@ -13,7 +13,7 @@ services:
     restart: unless-stopped
   adminmongo:
     image: mrvautin/adminmongo
-    container_name: nestor_mongo_admin
+    container_name: xin_mongo_admin
     ports:
       - 1234:1234
     links:

@@ -1,4 +1,4 @@
-## Nestor test api
+## Xin test api
 
 An api service to serve simple data for the front, built with express, mongoose, mongo, javascript/typescript
 

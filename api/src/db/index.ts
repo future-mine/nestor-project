@@ -5,7 +5,7 @@ import { connect } from "mongoose";
 export const initDb = async (): Promise<any> => {
   try {
     const db = await connect(
-      process.env.MONGO_URL || "mongodb://localhost/nestor"
+      process.env.MONGO_URL || "mongodb://localhost/xin"
     );
     console.log("DB connected");
     return db;
